@@ -1,12 +1,6 @@
 # DataCorsa with Go
 
-<p align="center">
-  <a href="https://www.datacorsa.com/"><img src="../assets/banner.svg" alt="DataCorsa"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/datacorsa/datacorsa">Main repository</a>
-</p>
+[Main repository](../README.md)
 
 ## Overview
 
@@ -15,7 +9,7 @@ This Go example builds an `http.Client` with a DataCorsa proxy URL and requests 
 ## Prerequisites
 
 - Go 1.18 or newer.
-- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/).
+- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/en/contact/).
 
 ## Gateway Details
 
@@ -25,6 +19,8 @@ This Go example builds an `http.Client` with a DataCorsa proxy URL and requests 
 | Test URL | `https://ip.datacorsa.com/json` |
 
 The proxy URL scheme is `https`, which means Go establishes a TLS connection to the DataCorsa proxy gateway before sending the request through it.
+
+Use the account-specific host, port, and username format provided by DataCorsa if they differ from the placeholders above.
 
 ## Installation
 
@@ -62,4 +58,5 @@ The program prints the decoded JSON response from DataCorsa's IP-check endpoint.
 ## Need Help?
 
 - Website: [https://www.datacorsa.com/](https://www.datacorsa.com/)
+- Contact: [https://www.datacorsa.com/en/contact/](https://www.datacorsa.com/en/contact/)
 - Email: [datacorsa.service@gmail.com](mailto:datacorsa.service@gmail.com)

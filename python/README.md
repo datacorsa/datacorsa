@@ -1,12 +1,6 @@
 # DataCorsa with Python
 
-<p align="center">
-  <a href="https://www.datacorsa.com/"><img src="../assets/banner.svg" alt="DataCorsa"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/datacorsa/datacorsa">Main repository</a>
-</p>
+[Main repository](../README.md)
 
 ## Overview
 
@@ -15,7 +9,7 @@ These examples show how to send a request through DataCorsa from Python with `re
 ## Prerequisites
 
 - Python 3.8 or newer.
-- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/).
+- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/en/contact/).
 
 ## Gateway Details
 
@@ -26,6 +20,8 @@ These examples show how to send a request through DataCorsa from Python with `re
 | Test URL | `https://ip.datacorsa.com/json` |
 
 The HTTP(S) example uses `https://` in the proxy URL because DataCorsa expects clients to connect to the proxy gateway over TLS on port `11443`.
+
+Use the account-specific host, port, and username format provided by DataCorsa if they differ from the placeholders above.
 
 ## Installation
 
@@ -84,4 +80,5 @@ A successful run prints the IP-check JSON returned through the DataCorsa exit no
 ## Need Help?
 
 - Website: [https://www.datacorsa.com/](https://www.datacorsa.com/)
+- Contact: [https://www.datacorsa.com/en/contact/](https://www.datacorsa.com/en/contact/)
 - Email: [datacorsa.service@gmail.com](mailto:datacorsa.service@gmail.com)

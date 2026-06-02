@@ -1,12 +1,6 @@
 # DataCorsa with Node.js
 
-<p align="center">
-  <a href="https://www.datacorsa.com/"><img src="../assets/banner.svg" alt="DataCorsa"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/datacorsa/datacorsa">Main repository</a>
-</p>
+[Main repository](../README.md)
 
 ## Overview
 
@@ -15,7 +9,7 @@ These examples use Axios to confirm that Node.js traffic is leaving through Data
 ## Prerequisites
 
 - Node.js 18 or newer.
-- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/).
+- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/en/contact/).
 
 ## Gateway Details
 
@@ -26,6 +20,8 @@ These examples use Axios to confirm that Node.js traffic is leaving through Data
 | Test URL | `https://ip.datacorsa.com/json` |
 
 The HTTPS proxy sample sets Axios `proxy.protocol` to `https`, which tells Axios to use TLS when connecting to the proxy gateway.
+
+Use the account-specific host, port, and username format provided by DataCorsa if they differ from the placeholders above.
 
 ## Installation
 
@@ -77,4 +73,5 @@ The output should be the JSON body returned by the DataCorsa IP-check endpoint.
 ## Need Help?
 
 - Website: [https://www.datacorsa.com/](https://www.datacorsa.com/)
+- Contact: [https://www.datacorsa.com/en/contact/](https://www.datacorsa.com/en/contact/)
 - Email: [datacorsa.service@gmail.com](mailto:datacorsa.service@gmail.com)

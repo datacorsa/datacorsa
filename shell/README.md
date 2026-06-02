@@ -1,12 +1,6 @@
 # DataCorsa with Bash and cURL
 
-<p align="center">
-  <a href="https://www.datacorsa.com/"><img src="../assets/banner.svg" alt="DataCorsa"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/datacorsa/datacorsa">Main repository</a>
-</p>
+[Main repository](../README.md)
 
 ## Overview
 
@@ -16,7 +10,7 @@ This directory contains a compact shell example for checking a DataCorsa proxy c
 
 - A shell such as Bash, Zsh, PowerShell, or Command Prompt.
 - `curl` installed and available on your `PATH`.
-- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/).
+- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/en/contact/).
 
 ## Gateway Details
 
@@ -27,6 +21,8 @@ This directory contains a compact shell example for checking a DataCorsa proxy c
 | Test URL | `https://ip.datacorsa.com/json` |
 
 The `https://` scheme on the HTTP(S) proxy is intentional: the client opens a TLS connection to the proxy gateway before tunneling your target request.
+
+Use the account-specific host, port, and username format provided by DataCorsa if they differ from the placeholders above.
 
 ## Installation
 
@@ -73,4 +69,5 @@ If the proxy is authenticated correctly, the response should include the exit IP
 ## Need Help?
 
 - Website: [https://www.datacorsa.com/](https://www.datacorsa.com/)
+- Contact: [https://www.datacorsa.com/en/contact/](https://www.datacorsa.com/en/contact/)
 - Email: [datacorsa.service@gmail.com](mailto:datacorsa.service@gmail.com)

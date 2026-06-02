@@ -1,12 +1,6 @@
 # DataCorsa with C#
 
-<p align="center">
-  <a href="https://www.datacorsa.com/"><img src="../assets/banner.svg" alt="DataCorsa"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/datacorsa/datacorsa">Main repository</a>
-</p>
+[Main repository](../README.md)
 
 ## Overview
 
@@ -15,7 +9,7 @@ This C# example creates an `HttpClient` with a `WebProxy` and requests DataCorsa
 ## Prerequisites
 
 - .NET 6 or newer.
-- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/).
+- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/en/contact/).
 
 ## Gateway Details
 
@@ -25,6 +19,8 @@ This C# example creates an `HttpClient` with a `WebProxy` and requests DataCorsa
 | Test URL | `https://ip.datacorsa.com/json` |
 
 The `WebProxy` address includes `https://` so the .NET handler knows to connect to DataCorsa's proxy gateway over TLS.
+
+Use the account-specific host, port, and username format provided by DataCorsa if they differ from the placeholders above.
 
 ## Installation
 
@@ -64,4 +60,5 @@ The program prints the body returned through DataCorsa.
 ## Need Help?
 
 - Website: [https://www.datacorsa.com/](https://www.datacorsa.com/)
+- Contact: [https://www.datacorsa.com/en/contact/](https://www.datacorsa.com/en/contact/)
 - Email: [datacorsa.service@gmail.com](mailto:datacorsa.service@gmail.com)

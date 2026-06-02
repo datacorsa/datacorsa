@@ -15,12 +15,12 @@
   <text x="60" y="70"
     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-weight="800" font-size="34" fill="#ffffff" letter-spacing="-0.4">
-    195+ countries · global IP coverage
+    195+ countries and regions
   </text>
   <text x="60" y="100"
     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
     font-weight="500" font-size="16" fill="#cbd5ff">
-    City · State · ZIP · ASN level geo-targeting
+    Country, city, and ZIP-code targeting
   </text>
 
   <!-- Stylised dot map -->
@@ -68,8 +68,8 @@
   <g transform="translate(60 0)">
     <g transform="translate(0 0)">
       <rect x="0"   y="340" width="240" height="80" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#a5b4fc" stroke-opacity="0.25"/>
-      <text x="20" y="372" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="26" fill="#ffffff">150M+</text>
-      <text x="20" y="398" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="13" fill="#cbd5ff">Real residential IPs</text>
+      <text x="20" y="372" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="26" fill="#ffffff">200M+</text>
+      <text x="20" y="398" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="13" fill="#cbd5ff">Global proxy IP pool</text>
     </g>
   </g>
 </svg>

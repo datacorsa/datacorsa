@@ -1,12 +1,6 @@
 # DataCorsa with Java
 
-<p align="center">
-  <a href="https://www.datacorsa.com/"><img src="../assets/banner.svg" alt="DataCorsa"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/datacorsa/datacorsa">Main repository</a>
-</p>
+[Main repository](../README.md)
 
 ## Overview
 
@@ -16,7 +10,7 @@ This Java example uses Apache HttpClient 5 to make a request through DataCorsa's
 
 - Java 11 or newer.
 - Apache HttpClient 5.
-- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/).
+- A DataCorsa account and proxy credentials from [DataCorsa](https://www.datacorsa.com/en/contact/).
 
 ## Gateway Details
 
@@ -26,6 +20,8 @@ This Java example uses Apache HttpClient 5 to make a request through DataCorsa's
 | Test URL | `https://ip.datacorsa.com/json` |
 
 The sample constructs the proxy as `new HttpHost("https", "gw.datacorsa.com", 11443)`, which tells Apache HttpClient to connect to the proxy gateway with TLS.
+
+Use the account-specific host, port, and username format provided by DataCorsa if they differ from the placeholders above.
 
 ## Installation
 
@@ -62,11 +58,13 @@ export DATACORSA_TARGET_URL="https://ip.datacorsa.com/json"
 
 ## Usage
 
-Compile and run the example inside a project that has HttpClient 5 on the classpath:
+Compile and run the example inside a project that has HttpClient 5 on the classpath. For a Maven project, use your normal `mvn compile` / `mvn exec:java` flow. If you compile manually, include HttpClient and its transitive dependencies in `-cp`:
 
 ```bash
-javac java.java
-java -Djdk.http.auth.tunneling.disabledSchemes="" DataCorsaProxyExample
+javac -cp "path/to/httpclient5.jar:path/to/httpcore5.jar:..." java.java
+java -cp ".:path/to/httpclient5.jar:path/to/httpcore5.jar:..." \
+  -Djdk.http.auth.tunneling.disabledSchemes="" \
+  DataCorsaProxyExample
 ```
 
 Some Java runtimes disable Basic authentication for HTTPS tunneling by default. Passing `-Djdk.http.auth.tunneling.disabledSchemes=""` allows the proxy credentials to be sent during tunnel setup.
@@ -76,4 +74,5 @@ The output should be the response body from the DataCorsa IP-check endpoint.
 ## Need Help?
 
 - Website: [https://www.datacorsa.com/](https://www.datacorsa.com/)
+- Contact: [https://www.datacorsa.com/en/contact/](https://www.datacorsa.com/en/contact/)
 - Email: [datacorsa.service@gmail.com](mailto:datacorsa.service@gmail.com)
