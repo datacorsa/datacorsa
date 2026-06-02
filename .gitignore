@@ -1,0 +1,14 @@
+STATUS.md
+
+__pycache__/
+*.py[cod]
+
+node_modules/
+.venv/
+
+*.class
+*.dll
+*.exe
+*.out
+bin/
+obj/

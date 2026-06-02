@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" fill="none" role="img" aria-label="DataCorsa proxy product lineup">
+  <defs>
+    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eef2ff"/><stop offset="1" stop-color="#e0e7ff"/></linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f0fdf4"/><stop offset="1" stop-color="#dcfce7"/></linearGradient>
+    <linearGradient id="card3" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fdf4ff"/><stop offset="1" stop-color="#fae8ff"/></linearGradient>
+    <linearGradient id="card4" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff7ed"/><stop offset="1" stop-color="#ffedd5"/></linearGradient>
+    <linearGradient id="card5" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eff6ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="card6" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f0fdfa"/><stop offset="1" stop-color="#ccfbf1"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="20" fill="#f8fafc"/>
+  <text x="60" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="28" fill="#120d38" letter-spacing="-0.4">Full-spectrum proxy products</text>
+  <text x="60" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="14" fill="#475569">From residential to mobile — covering every data collection scenario</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <g transform="translate(60 130)">
+      <rect width="170" height="180" rx="16" fill="url(#card1)" stroke="#c7d2fe"/>
+      <text x="18" y="36" font-weight="800" font-size="14" fill="#4338ca">RESIDENTIAL</text>
+      <text x="18" y="66" font-weight="800" font-size="20" fill="#120d38">150M+ IPs</text>
+      <text x="18" y="92" font-weight="500" font-size="12" fill="#475569">Real home broadband</text>
+      <text x="18" y="112" font-weight="500" font-size="12" fill="#475569">195 countries</text>
+      <text x="18" y="132" font-weight="500" font-size="12" fill="#475569">Auto-rotate / sticky</text>
+      <text x="18" y="160" font-weight="700" font-size="12" fill="#4338ca">99.95% success</text>
+    </g>
+    <g transform="translate(245 130)">
+      <rect width="170" height="180" rx="16" fill="url(#card2)" stroke="#bbf7d0"/>
+      <text x="18" y="36" font-weight="800" font-size="14" fill="#15803d">DATACENTER</text>
+      <text x="18" y="66" font-weight="800" font-size="20" fill="#120d38">1.3M+ IPs</text>
+      <text x="18" y="92" font-weight="500" font-size="12" fill="#475569">Sub-second response</text>
+      <text x="18" y="112" font-weight="500" font-size="12" fill="#475569">Unlimited bandwidth</text>
+      <text x="18" y="132" font-weight="500" font-size="12" fill="#475569">70% lower cost</text>
+      <text x="18" y="160" font-weight="700" font-size="12" fill="#15803d">Best value</text>
+    </g>
+    <g transform="translate(430 130)">
+      <rect width="170" height="180" rx="16" fill="url(#card3)" stroke="#e9d5ff"/>
+      <text x="18" y="36" font-weight="800" font-size="14" fill="#7e22ce">MOBILE</text>
+      <text x="18" y="66" font-weight="800" font-size="20" fill="#120d38">4G / 5G</text>
+      <text x="18" y="92" font-weight="500" font-size="12" fill="#475569">Real mobile devices</text>
+      <text x="18" y="112" font-weight="500" font-size="12" fill="#475569">700+ ASN carriers</text>
+      <text x="18" y="132" font-weight="500" font-size="12" fill="#475569">Highest anonymity</text>
+      <text x="18" y="160" font-weight="700" font-size="12" fill="#7e22ce">CAPTCHA-friendly</text>
+    </g>
+    <g transform="translate(615 130)">
+      <rect width="170" height="180" rx="16" fill="url(#card4)" stroke="#fed7aa"/>
+      <text x="18" y="36" font-weight="800" font-size="14" fill="#c2410c">ISP</text>
+      <text x="18" y="66" font-weight="800" font-size="20" fill="#120d38">Static IPs</text>
+      <text x="18" y="92" font-weight="500" font-size="12" fill="#475569">Carrier-grade</text>
+      <text x="18" y="112" font-weight="500" font-size="12" fill="#475569">Long-term retention</text>
+      <text x="18" y="132" font-weight="500" font-size="12" fill="#475569">DC speed + Resi trust</text>
+      <text x="18" y="160" font-weight="700" font-size="12" fill="#c2410c">Stable sessions</text>
+    </g>
+    <g transform="translate(800 130)">
+      <rect width="170" height="180" rx="16" fill="url(#card5)" stroke="#bfdbfe"/>
+      <text x="18" y="36" font-weight="800" font-size="14" fill="#1d4ed8">UNBLOCKER</text>
+      <text x="18" y="66" font-weight="800" font-size="20" fill="#120d38">AI-powered</text>
+      <text x="18" y="92" font-weight="500" font-size="12" fill="#475569">Auto CAPTCHA bypass</text>
+      <text x="18" y="112" font-weight="500" font-size="12" fill="#475569">JS rendering</text>
+      <text x="18" y="132" font-weight="500" font-size="12" fill="#475569">Pay per success</text>
+      <text x="18" y="160" font-weight="700" font-size="12" fill="#1d4ed8">99%+ success</text>
+    </g>
+    <g transform="translate(985 130)">
+      <rect width="170" height="180" rx="16" fill="url(#card6)" stroke="#99f6e4"/>
+      <text x="18" y="36" font-weight="800" font-size="14" fill="#0f766e">SCRAPER API</text>
+      <text x="18" y="66" font-weight="800" font-size="20" fill="#120d38">Structured</text>
+      <text x="18" y="92" font-weight="500" font-size="12" fill="#475569">RESTful API</text>
+      <text x="18" y="112" font-weight="500" font-size="12" fill="#475569">SDKs &amp; templates</text>
+      <text x="18" y="132" font-weight="500" font-size="12" fill="#475569">JSON / CSV output</text>
+      <text x="18" y="160" font-weight="700" font-size="12" fill="#0f766e">End-to-end</text>
+    </g>
+  </g>
+</svg>
