@@ -1,70 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" fill="none" role="img" aria-label="DataCorsa proxy product lineup">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" fill="none" role="img" aria-label="DataCorsa available proxy products">
   <defs>
-    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eef2ff"/><stop offset="1" stop-color="#e0e7ff"/></linearGradient>
-    <linearGradient id="card2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f0fdf4"/><stop offset="1" stop-color="#dcfce7"/></linearGradient>
-    <linearGradient id="card3" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fdf4ff"/><stop offset="1" stop-color="#fae8ff"/></linearGradient>
-    <linearGradient id="card4" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff7ed"/><stop offset="1" stop-color="#ffedd5"/></linearGradient>
-    <linearGradient id="card5" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eff6ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
-    <linearGradient id="card6" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f0fdfa"/><stop offset="1" stop-color="#ccfbf1"/></linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#cffafe"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#ffedd5"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1200" height="620" rx="20" fill="#f8fafc"/>
-  <text x="60" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="32" fill="#120d38">Proxy products</text>
-  <text x="60" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="16" fill="#475569">A compact overview of the DataCorsa proxy and web-data product family.</text>
+  <rect width="1200" height="420" rx="20" fill="#f8fafc"/>
+  <text x="60" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="34" fill="#120d38">Available proxy products</text>
+  <text x="60" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="16" fill="#64748b">DataCorsa currently offers Residential, Datacenter, and Mobile proxy access.</text>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
-    <g transform="translate(60 135)">
-      <rect width="320" height="190" rx="16" fill="url(#card1)" stroke="#c7d2fe"/>
-      <text x="24" y="42" font-weight="800" font-size="15" fill="#4338ca">RESIDENTIAL PROXIES</text>
-      <text x="24" y="82" font-weight="800" font-size="30" fill="#120d38">200M+ pool</text>
-      <text x="24" y="116" font-weight="500" font-size="16" fill="#475569">Rotating and sticky-session access</text>
-      <text x="24" y="144" font-weight="500" font-size="16" fill="#475569">across 195+ countries and regions.</text>
-      <text x="24" y="170" font-weight="700" font-size="14" fill="#4338ca">HTTP(S) and SOCKS5</text>
+    <g transform="translate(60 150)">
+      <rect width="330" height="210" rx="18" fill="url(#card1)" stroke="#c7d2fe"/>
+      <rect x="24" y="28" width="56" height="56" rx="14" fill="#6d28d9"/>
+      <circle cx="52" cy="56" r="18" fill="none" stroke="#ffffff" stroke-width="3"/>
+      <ellipse cx="52" cy="56" rx="8" ry="18" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <path d="M34 56H70" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <text x="24" y="116" font-weight="800" font-size="24" fill="#120d38">Residential Proxies</text>
+      <text x="24" y="150" font-weight="500" font-size="17" fill="#64748b">200M+ real residential IPs</text>
+      <text x="24" y="178" font-weight="500" font-size="17" fill="#64748b">for zero-ban risk data collection.</text>
     </g>
 
-    <g transform="translate(420 135)">
-      <rect width="320" height="190" rx="16" fill="url(#card4)" stroke="#fed7aa"/>
-      <text x="24" y="42" font-weight="800" font-size="15" fill="#c2410c">ISP PROXIES</text>
-      <text x="24" y="82" font-weight="800" font-size="30" fill="#120d38">Static IPs</text>
-      <text x="24" y="116" font-weight="500" font-size="16" fill="#475569">ISP-backed routes for account, ad,</text>
-      <text x="24" y="144" font-weight="500" font-size="16" fill="#475569">and long-session workflows.</text>
-      <text x="24" y="170" font-weight="700" font-size="14" fill="#c2410c">Stable IP identity</text>
+    <g transform="translate(435 150)">
+      <rect width="330" height="210" rx="18" fill="url(#card2)" stroke="#67e8f9"/>
+      <rect x="24" y="28" width="56" height="56" rx="14" fill="#0891b2"/>
+      <rect x="36" y="40" width="32" height="13" rx="2" stroke="#ffffff" stroke-width="3"/>
+      <rect x="36" y="61" width="32" height="13" rx="2" stroke="#ffffff" stroke-width="3"/>
+      <circle cx="43" cy="46.5" r="1.8" fill="#ffffff"/>
+      <circle cx="43" cy="67.5" r="1.8" fill="#ffffff"/>
+      <text x="24" y="116" font-weight="800" font-size="24" fill="#120d38">Datacenter Proxies</text>
+      <text x="24" y="150" font-weight="500" font-size="17" fill="#64748b">2M+ datacenter IPs,</text>
+      <text x="24" y="178" font-weight="500" font-size="17" fill="#64748b">sub-second response, 70% lower cost.</text>
     </g>
 
-    <g transform="translate(780 135)">
-      <rect width="320" height="190" rx="16" fill="url(#card2)" stroke="#bbf7d0"/>
-      <text x="24" y="42" font-weight="800" font-size="15" fill="#15803d">DATACENTER PROXIES</text>
-      <text x="24" y="82" font-weight="800" font-size="30" fill="#120d38">2M+ IPs</text>
-      <text x="24" y="116" font-weight="500" font-size="16" fill="#475569">High-throughput proxy access for</text>
-      <text x="24" y="144" font-weight="500" font-size="16" fill="#475569">large-scale jobs and internal tools.</text>
-      <text x="24" y="170" font-weight="700" font-size="14" fill="#15803d">Fast routing</text>
-    </g>
-
-    <g transform="translate(60 365)">
-      <rect width="320" height="190" rx="16" fill="url(#card3)" stroke="#e9d5ff"/>
-      <text x="24" y="42" font-weight="800" font-size="15" fill="#7e22ce">MOBILE PROXIES</text>
-      <text x="24" y="82" font-weight="800" font-size="30" fill="#120d38">7M+ IPs</text>
-      <text x="24" y="116" font-weight="500" font-size="16" fill="#475569">4G/5G mobile routes for mobile-app,</text>
-      <text x="24" y="144" font-weight="500" font-size="16" fill="#475569">geo, and carrier-aware workflows.</text>
-      <text x="24" y="170" font-weight="700" font-size="14" fill="#7e22ce">Mobile traffic</text>
-    </g>
-
-    <g transform="translate(420 365)">
-      <rect width="320" height="190" rx="16" fill="url(#card5)" stroke="#bfdbfe"/>
-      <text x="24" y="42" font-weight="800" font-size="15" fill="#1d4ed8">WEB UNBLOCKER</text>
-      <text x="24" y="82" font-weight="800" font-size="30" fill="#120d38">Managed unlock</text>
-      <text x="24" y="116" font-weight="500" font-size="16" fill="#475569">Anti-bot handling, JavaScript rendering,</text>
-      <text x="24" y="144" font-weight="500" font-size="16" fill="#475569">and retry logic behind one endpoint.</text>
-      <text x="24" y="170" font-weight="700" font-size="14" fill="#1d4ed8">For harder targets</text>
-    </g>
-
-    <g transform="translate(780 365)">
-      <rect width="320" height="190" rx="16" fill="url(#card6)" stroke="#99f6e4"/>
-      <text x="24" y="42" font-weight="800" font-size="15" fill="#0f766e">SCRAPER API</text>
-      <text x="24" y="82" font-weight="800" font-size="30" fill="#120d38">Structured data</text>
-      <text x="24" y="116" font-weight="500" font-size="16" fill="#475569">Managed API access for web scraping</text>
-      <text x="24" y="144" font-weight="500" font-size="16" fill="#475569">and machine-readable output.</text>
-      <text x="24" y="170" font-weight="700" font-size="14" fill="#0f766e">API integration</text>
+    <g transform="translate(810 150)">
+      <rect width="330" height="210" rx="18" fill="url(#card3)" stroke="#fed7aa"/>
+      <rect x="24" y="28" width="56" height="56" rx="14" fill="#f97316"/>
+      <rect x="42" y="39" width="20" height="34" rx="3" stroke="#ffffff" stroke-width="3"/>
+      <circle cx="52" cy="67" r="1.8" fill="#ffffff"/>
+      <text x="24" y="116" font-weight="800" font-size="24" fill="#120d38">Mobile Proxies</text>
+      <text x="24" y="150" font-weight="500" font-size="17" fill="#64748b">Real 4G/5G device IPs</text>
+      <text x="24" y="178" font-weight="500" font-size="17" fill="#64748b">for the highest level of anonymity.</text>
     </g>
   </g>
 </svg>

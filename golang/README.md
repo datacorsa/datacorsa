@@ -4,7 +4,7 @@
 
 ## Overview
 
-This Go example builds an `http.Client` with a DataCorsa proxy URL and requests the IP-check endpoint. It is intentionally small so you can reuse the `Transport` setup in crawlers, CLIs, workers, and services.
+This Go example builds an `http.Client` with a DataCorsa proxy URL and requests the IP-check endpoint. It is intentionally small so you can reuse the `Transport` setup in other Go programs.
 
 ## Prerequisites
 

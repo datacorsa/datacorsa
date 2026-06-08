@@ -16,14 +16,13 @@ Code samples for sending requests through <a href="https://www.datacorsa.com/">D
 - [Quick example](#quick-example)
 - [Products](#products)
 - [Locations](#locations)
-- [Use cases](#use-cases)
 - [Integrations](#integrations)
 - [License](#license)
 - [Contact](#contact)
 
 ## What is DataCorsa?
 
-[DataCorsa](https://www.datacorsa.com/) provides residential, ISP, mobile, and datacenter proxies for reliable global data collection. The current public site describes a 200M+ IP pool across 195+ countries and regions, with HTTP(S) and SOCKS5 protocol support.
+[DataCorsa](https://www.datacorsa.com/) currently provides three proxy products: Residential Proxies, Datacenter Proxies, and Mobile Proxies. This repository covers HTTP(S) and SOCKS5 gateway examples for those available products.
 
 This repository is a compact integration reference. It keeps the examples focused on the gateway, credentials, and client configuration needed to make a first proxied request.
 
@@ -38,7 +37,7 @@ This repository is a compact integration reference. It keeps the examples focuse
 
 | Mode | Endpoint | Typical use |
 | --- | --- | --- |
-| HTTP(S) proxy | `https://gw.datacorsa.com:11443` | Standard HTTP clients and browser automation tools that support HTTPS proxy URLs |
+| HTTP(S) proxy | `https://gw.datacorsa.com:11443` | HTTP clients that support HTTPS proxy URLs |
 | SOCKS5 proxy | `gw.datacorsa.com:11444` | Clients that need SOCKS5 support or remote DNS resolution |
 | Test URL | `https://ip.datacorsa.com/json` | Quick check that the request exits through DataCorsa |
 
@@ -70,12 +69,9 @@ If the gateway is reachable and your credentials are valid, the response should 
   <img src="assets/proxy-types.svg" alt="DataCorsa proxy product lineup">
 </p>
 
-- [Residential Proxies](https://www.datacorsa.com/en/products/residential-proxies/) - rotating and sticky-session residential proxy access.
-- [ISP Proxies](https://www.datacorsa.com/en/products/isp-proxies/) - static ISP-backed IPs for long-running sessions.
-- [Datacenter Proxies](https://www.datacorsa.com/en/products/datacenter-proxies/) - high-throughput datacenter proxy access.
-- [Mobile Proxies](https://www.datacorsa.com/en/products/mobile-proxies/) - 4G/5G mobile proxy routes.
-- [Web Unblocker](https://www.datacorsa.com/en/products/web-unblocker/) - managed unblocking for harder web targets.
-- [Scraper API](https://www.datacorsa.com/en/products/scraper-api/web/) - managed web scraping API with structured output options.
+- [Residential Proxies](https://www.datacorsa.com/en/products/residential-proxies/) - 200M+ real residential IPs for zero-ban risk data collection.
+- [Datacenter Proxies](https://www.datacorsa.com/en/products/datacenter-proxies/) - 2M+ datacenter IPs, sub-second response, 70% lower cost.
+- [Mobile Proxies](https://www.datacorsa.com/en/products/mobile-proxies/) - real 4G/5G device IPs for the highest level of anonymity.
 
 ## Locations
 
@@ -84,15 +80,6 @@ DataCorsa lists coverage across 195+ countries and regions, with country, city, 
 <p align="center">
   <img src="assets/locations.svg" alt="DataCorsa global IP coverage">
 </p>
-
-## Use cases
-
-- **E-commerce** - price, inventory, and marketplace monitoring.
-- **SEO** - region-aware rank tracking and SERP collection.
-- **Ad verification** - placement, creative, and geo-targeting checks.
-- **AI training data** - public web data collection for ML and LLM workflows.
-- **Market research** - competitor, review, and sentiment monitoring.
-- **Travel** - flight, hotel, and regional availability data collection.
 
 ## Integrations
 
@@ -107,7 +94,7 @@ Each subdirectory includes a small source file and README for one language or ru
 - [Python](./python) - HTTP(S) and SOCKS5
 - [Ruby](./ruby)
 
-The same proxy settings can usually be adapted to browser automation, scraping frameworks, and any HTTP client that supports HTTP(S) or SOCKS5 proxies.
+Use the example closest to your runtime and replace the placeholder credentials with your DataCorsa account values.
 
 ## License
 
